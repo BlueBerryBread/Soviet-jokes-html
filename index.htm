@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>苏联笑话生成器</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" tppabs="http://namespacexp.top/joke/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="../../cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js" tppabs="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="../../cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js" tppabs="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style = "font-size:16px">
+	<div class = "container">
+	<div class = "row, text-center">
+    		<h2>苏联笑话生成器</h2>
+				<h5>by XP</h5>
+	</div>
+
+	<form role="form">
+	  <div class="form-group">
+	    <label for="name">要讽刺的事情是？</label>
+	    <input type="text" id = "mthing" class="form-control" placeholder="996">
+	    <label for="name">这件事是谁提出来的？</label>
+	    <input type="text" id = "mman" class="form-control" placeholder="强东哥">
+	    <label for="name">提出者声称这件事有助于什么？</label>
+	    <input type="text" id = "mtheory" class="form-control" placeholder="建设一流公司">
+	    <label for="name">这件事针对的是哪些人？</label>
+	    <input type="text" id = "mvictim" class="form-control" placeholder="程序员">
+	    <label for="name">这件事起作用的范围？</label>
+	    <input type="text" id = "mrange" class="form-control" placeholder="公司">
+	  </div>
+	 </form>
+ 	<div class = "row, text-center">
+     		<button type="button" id = "mgo" class="btn btn-default">生成笑话！</button>
+ 	</div>
+</br>
+
+	<div id = "mjoke">
+	</div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+
+    <script src="js/jquery.min.js" tppabs="http://namespacexp.top/joke/js/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js" tppabs="http://namespacexp.top/joke/js/bootstrap.min.js"></script>
+	
+	<script>
+		jokes = ["</br>在mrange庆典的聚会上，一位35岁的mvictim高举着牌子，上面写着“感谢mthing赐予我的快乐的童年”。</br></br>mman呵斥道，“你是在嘲讽mthing吗？mthing才实行了20年。”</br></br>“确切地说，这正是我感谢它的原因。”</br></br>", "</br>mman发言道：“从下个礼拜开始我们要做两件事，一，全面在mrange实行mthing；二，周六所有mvictim都要去酒吧里拿一条蜥蜴。大家有什么意见可以提出来。”</br></br>过了一会儿，台下有个声音怯生生地提问：“为什么要拿蜥蜴？”</br></br>“很好，我就知道大家对mthing没有异议。”</br></br>", "</br>“mthing真**的智障！”</br></br>“你涉嫌恶意攻击mman,跟我走一趟。”</br></br>“我又没说是哪里的mthing！”</br></br>“废话！哪里的mthing智障我会不知道吗！”</br></br>", "</br>mman在向mvictim们讲话：</br></br>“很快我们就能mtheory！”</br></br>台下传来一个声音：“那我们怎么办？”</br></br>", "</br>一个mvictim的鹦鹉丢了。这是只会说话的鹦鹉，要是落到mman的手里可糟了。</br></br>这人便发表了一篇声明：“本人遗失鹦鹉一只，另外，本人不同意它关于mthing的观点。”</br></br>", "</br>“mthing是艺术还是科学?”</br></br>”我说不好，但肯定不是科学。”</br></br>“何以见得?”</br></br>“如果mthing是科学的话，他们至少应该先用小白鼠做实验。”</br></br>", "</br>大会主持人:”请支持mthing的人坐在左边，反对mthing的坐在右边。”</br></br>大多数人坐在了右边，少数人坐在了左边，只有一个人坐在中间纹丝不动。</br></br>主持人很不解，询问情况。</br></br>“我对mvictim们的情况表示十分理解，但我支持mthing。”</br></br>”那您赶快坐到主席台来。”主持人急忙说道。</br></br>", "</br>mman关于“关爱mvictim 支持mthing”的会议纪要正在以超光速增长，但这并没有违背相对论，因为会议纪要里不含有任何信息。</br></br>", "</br>mman:“我们要不惜一切代价，为了我们的主人翁mtheory！”</br></br>一个mvictim对另一个mvictim说:“看哪 ，mman把咱们当主人翁。”</br></br>另一个mvictim说:“不，我们是‘代价’。”</br></br>", "</br>“如果你在mrange，旁边一个陌生人突然开始唉声叹气，正确的做法是什么?”</br></br>“立即阻止这种反对mthing的行为。”</br></br>", "</br>mman:“由于mthing的实行，各位mvictim的美好未来前景已经出现在了地平线上。”</br></br>一个mvictim问另一个mvictim:”什么是地平线?”</br></br>另一个mvictim回答道:“就是那个能看到但是永远都到不了的线。”</br></br>","</br>mman在mrange随机采访了一位mvictim:“请问你对mthing有什么意见吗?”</br></br>mvictim答道:“我有一些意见，但我不同意我的意见!”</br></br>", "</br>两个骷髅相遇，一骷髅问另一个骷髅:“我是被mman的mthing逼死的，你是怎么死的？”</br></br>另一个骷髅回答说:“我还活着。”</br></br>",
+"</br>mman的汽车被一头牛挡住了，怎么也赶不走。mman便下车对牛说：“你再不走，我就把你送到mrange去mthing。”牛听了便一溜烟的跑开了。</br></br>",
+		"</br>问：“mthing的优越之处是什么？”</br></br>答：“成功克服了那些其他情况下不会存在的困难。”</br></br>",
+		"</br>问：“mthing在哪些时候会遇到抵制？”</br></br>答：“主要有四个时间段：春天、夏天、秋天和冬天。”</br></br>",
+		"</br>mman问一名mvictim:“你的爸爸是谁？”</br></br>他回答说：“是mman!”</br></br>mman很满意，又问：“你的母亲是谁？”</br></br>他回答：“是mthing！”</br></br>mman又问：“你将来想当什么？”</br></br>“孤儿！”</br></br>",
+		"</br>问：“什么是最短的笑话？”</br></br>答：“mthing。”</br></br>","</br>问：“那些别有用心的人是怎样黑mthing的？”</br></br>答：“他们把mman说的内容原文复述了。”</br></br>","</br>问：“为什么mman把mvictim放在中心考虑？”</br></br>答：“这样从各个方向都能方便地欺压他们。”</br></br>","</br>问：“什么叫交换意见？”</br></br>答：“带着你的意见去找mman理论，然后带着他的回来。”</br></br>",
+		"</br>问：“mthing实行的结果如何？”</br></br>答：“还是有人活下来了。”</br></br>","</br>问：“mthing的前景是什么？”</br></br>答：“有两种可能的情况。现实的可能是火星人会降临地球帮我们打理一切，科幻的可能是我们成功地mtheory。”</br></br>"];
+
+		window.onload = function(){
+			$("#mgo").click(function(){
+				var mrange, mthing, mman, mtheory, mvictim;
+				if($("#mthing").val() == ""){
+					mthing = "996";
+				}
+				else{
+					mthing = $("#mthing").val();
+				}
+				if($("#mrange").val() == ""){
+					mrange = "公司";
+				}
+				else{
+					mrange = $("#mrange").val();
+				}
+				if($("#mman").val() == ""){
+					mman = "强东哥";
+				}
+				else{
+					mman = $("#mman").val();
+				}
+				if($("#mvictim").val() == ""){
+					mvictim = "程序员";
+				}
+				else{
+					mvictim = $("#mvictim").val();
+				}
+				if($("#mtheory").val() == ""){
+					mtheory = "建设一流公司";
+				}
+				else{
+					mtheory = $("#mtheory").val();
+				}
+			
+				var rand = Math.floor(Math.random()*(jokes.length));
+			
+				var resString = jokes[rand];
+				resString = resString.replace(/mrange/g, mrange);
+				resString = resString.replace(/mthing/g, mthing);
+				resString = resString.replace(/mman/g, mman);
+				resString = resString.replace(/mtheory/g, mtheory);
+				resString = resString.replace(/mvictim/g, mvictim);
+				$("#mjoke").html(resString);
+				$("#mjoke").css("border","thin solid");
+				$("#mjoke").css("text-indent","20px");
+			})
+		}
+		
+	</script>
+  </body>
+</html>
